@@ -1,0 +1,896 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.jj{
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 25%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
+
+}
+.nav-list{
+    width: 70%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.active,.nav-list li:hover{
+    background: #bb707044;
+    border-radius: 51px;
+}
+.sub-menu{
+    display: none;
+}
+.nav-list li:hover.sub-menu{
+    display: block;
+    position: absolute;
+    background: rgb(187, 204, 187);
+    margin-top: 15px;
+    margin-top: 15px;
+}
+.rightNav{
+    width:30%;
+    text-align: right;
+    padding: 0 25px;
+}
+#search{
+    padding: 5px;
+    font-size: 17px;
+    
+    border-radius: 9px;
+}
+.background{
+    background: rgba(0, 0, 0, 0.7) url('/tan.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 65%;
+}
+.firstSection{
+    height: 100vh;
+    text-align: center;
+}
+.firstHalf{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.secondHalf{
+    width: 30%;
+}
+.secondHalf img{
+    width: 35%;
+    border: 4px solid  white;
+    border-radius: 150px;
+    padding: 4px;
+
+}
+.text-big{
+    font-size: 30px;
+    text-align: center;
+
+}
+.text-small{
+    font-size: 15px;
+    text-align: center;
+
+}
+.text-smalls{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 280px;
+}
+.btn{
+    padding: 8px 20px;
+    margin: 7px 3px;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 16px;
+    background: none;
+    color: white;
+    cursor: pointer;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.btn-sm{
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.bt-dark{
+    color: black;
+    border-color: grey;
+}
+.section-jv{
+    height: 1700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+.section{
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+.section-fr{
+    height: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: whitesmoke;
+}
+.section-left{
+    height: 1400px;
+    color: white;
+}
+.section-lefts{
+    height: 1100px;
+    color: white;
+}
+.section-op{
+    height: 800px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.section-ol{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Ubuntu', sans-serif;
+}
+.paras{
+    padding: 0 45px;
+}
+.sectionTag{
+    padding: 16px 0;
+}
+.sectionSubTag{
+    font-family: 'Ubuntu', sans-serif;
+
+}
+.thumbnail img{
+width: 250px;
+height: 250px;
+border: 2px solid black;
+border-radius: 2px;
+margin-top: -236px;
+margin-right: -229px;
+}
+.contact{
+    background-color: #f6f5f4;
+    height: 833px;
+    
+}
+.text-center{
+    text-align: center;
+    margin: 42px auto;
+    font-family:'Ubuntu', sans-serif; 
+    font-size: 35px;
+    padding-top: 20px;
+}
+.form{
+    max-width: 400px;
+    margin: 42px auto;
+}
+.form-input{
+    margin: 14px 0;
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-footer{
+ font-size: 15px;
+ text-align: center;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ display: flex;
+ justify-content: center;
+ color: white;
+}
+.FH{
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.btn-sb{
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    text-align: center;
+    justify-content: center;
+
+}
+.btn-as{
+    padding: 5px 10px;
+    vertical-align: middle;
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin-top: -184px;
+    margin-left: 195px;
+}
+.ii{
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+.FF{
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.qq{
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin-top: 26px;
+    font-size: 20px;
+}
+.thumb img{
+    width: 250px;
+    height: 250px;
+    margin-top: 800px;
+    margin-left: -32px;
+    margin-right: -87px;
+}
+.DD{
+    margin-top: 25px;
+    font-size: 20px;
+}
+.gg{
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.thumbnail-btp img{
+width: 250px;
+height: 400px;
+margin-top: 800px;
+margin-left: -110px;
+}
+.ee{
+    color: white;
+    font-size: 15px;
+}
+.pp{
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.thumbnail-q img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    border-radius: 2px;
+    margin-top: -240px;
+    margin-right: -259px;
+}
+.thumbnail-o img{
+    width: 200px;
+    height: 150px;
+    margin-top: -114px;
+    margin-left: -176px;
+    margin-right: 40px;
+}
+.thumbnail-btpl img{
+    width: 200px;
+    height: 150px;
+    margin-top: 300px;
+}
+.thumbnail-y img{
+    margin-right: -82px;
+    width: 200px;
+    margin-top: -115px;
+}
+.thumbnail-btpu img{
+width: 200px;
+}
+.thumbnail-ll{
+    margin-top: -319px;
+    margin-left: 580px;
+
+}
+
+INDEX
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <title>iEducate - Transforming online education</title>
+</head>
+<body>
+    <nav class="navbar background" >
+        <ul class="nav-list">
+            <div class="logo"><img src="img.jpg" alt="logo"</div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="java.html">JAVA</a></li>
+            <li><a href="c.html">C++</a></li>
+            <li><a href="python.html">PYTHON</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            
+        </ul>
+    </nav>
+
+    <section class="background firstSection" id="home">
+        <div class="box-main">
+            <div class="firstHalf">
+                <p class="text-big"><marquee>START LEARNING </marquee></p>
+                <p class="text-small"><marquee>From the world's best institutions</marquee></p>
+            </div>
+            <div class="secondHalf">
+                    <img src="img.jpg" alt="laptop image">
+                </div>
+            </div>
+    </section>
+    
+           <footer class="background">
+               <p class="text-footer">Copyright &copy; 2027-All rights reserved
+               </p>
+           </footer>
+           <script src="resp.js"></script>
+        
+</body>
+</html>
+
+
+JAVA
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+    <title>JAVA</title>
+</head>
+<body background="dp.jpg">
+    <nav class="navbar background" >
+        <ul class="nav-list">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="java.html">JAVA</a>
+            <li><a href="c.html">C++</a></li>
+            <li><a href="python.html">PYTHON</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+           
+            
+        </ul>
+    </nav>
+    <section class="section-jv" id="java" >
+        <div class="paras">
+        <p class="sectionTag text-big">Java Programming Language</p>
+        <p class="sectionSubTag text-small"> <ul class="bullet">
+            <li>Java has been one of the most popular programming languages for many years.</li>
+            <li>Java is Object Oriented. However, it is not considered as pure object-oriented as it provides support for primitive data types (like int, char, etc)</li>
+            <li>The Java codes are first compiled into byte code (machine-independent code). Then the byte code runs on Java Virtual Machine (JVM) regardless of the underlying architecture.</li>
+            <li>The Java codes are first compiled into byte code (machine-independent code). Then the byte code runs on Java Virtual Machine (JVM) regardless of the underlying architecture.</li>
+            <li>Java is used in all kinds of applications like Mobile Applications (Android is Java-based), desktop applications, web applications, client-server applications, enterprise applications, and many more.</li>
+            <li>When compared with C++, Java codes are generally more maintainable because Java does not allow many things which may lead to bad/inefficient programming if used incorrectly. For example, non-primitives are always references in Java. So we cannot pass large objects (like we can do in C++) to functions, we always pass references in Java. One more example, since there are no pointers, bad memory access is also not possible.</li>
+            <li>When compared with Python, Java kind of fits between C++ and Python. The programs are written in Java typically run faster than corresponding Python programs and slower than C++. Like C++, Java does static type checking, but Python does not.
+            </li>
+        
+        </ul>
+<h3 class="qq">Variables in Java</h3><br>
+Variable in Java is a data container that saves the data values during Java program execution. Every variable is assigned a data type that designates the type and quantity of value it can hold. Variable is a memory location name of the data.
+A variable is a name given to a memory location.<br>
+Types of Variables in Java<br>
+Now let us discuss different types of variables which are listed as follows:<br>
+Local Variables<br>
+Instance Variables<br>
+Static Variables<br>
+<b>1.Local variables</b> <br>
+
+A variable defined within a block or method or constructor is called a local variable. 
+
+These variables are created when the block is entered, or the function is called and destroyed after exiting from the block or when the call returns from the function.
+The scope of these variables exists only within the block in which the variable is declared. i.e., we can access these variables only within that block.
+Initialization of the local variable is mandatory before using it in the defined scope.<br>
+<b>2.Instance Variables</b><br>
+
+Instance variables are non-static variables and are declared in a class outside any method, constructor, or block. 
+
+As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+Unlike local variables, we may use access specifiers, for instance, variables. If we do not specify any access specifier, then the default access specifier will be used.
+Initialization of Instance Variable is not Mandatory. Its default value is 0
+Instance Variable can be accessed only by creating objects.<br>
+<b>3. Static Variables</b><br>
+
+Static variables are also known as Class variables. 
+
+These variables are declared similarly as instance variables. The difference is that static variables are declared using the static keyword within a class outside any method constructor or block.
+Unlike instance variables, we can only have one copy of a static variable per class irrespective of how many objects we create.
+Static variables are created at the start of program execution and destroyed automatically when execution ends.
+Initialization of Static Variable is not Mandatory. Its default value is 0
+If we access the static variable like the Instance variable (through an object), the compiler will show the warning message, which won’t halt the program. The compiler will replace the object name with the class name automatically.
+If we access the static variable without the class name, the compiler will automatically append the class name.
+Differences between the Instance variable Vs. the Static variables
+Now let us do discuss the differences between the Instance variable Vs. the Static variables
+
+Each object will have its copy of the instance variable, whereas We can only have one copy of a static variable per class irrespective of how many objects we create.
+Changes made in an instance variable using one object will not be reflected in other objects as each object has its own copy of the instance variable. In the case of static, changes will be reflected in other objects as static variables are common to all objects of a class.
+We can access instance variables through object references, and Static Variables can be accessed directly using the class name.<br>
+Syntax: Static and instance variables<br>
+class GFG<br>
+{<br>
+   // Static variable<br>
+   static int a; <br>
+   
+   // Instance variable<br>
+   int b;<br>        
+} <br>
+<h3 class="qq"> History</h3>
+Java’s history is very interesting. It is a programming language created in 1991. James Gosling, Mike Sheridan, and Patrick Naughton, a team of Sun engineers known as the Green team initiated the Java language in 1991.<br> Sun Microsystems released its first public implementation in 1996 as Java 1.0. It provides no-cost -run-times on popular platforms.<br> Java1.0 compiler was re-written in Java by Arthur Van Hoff to strictly comply with its specifications. With the arrival of Java 2, new versions had multiple configurations built for different types of platforms.<br>
+In 1997, Sun Microsystems approached the ISO standards body and later formalized Java, but it soon withdrew from the process. At one time, Sun made most of its Java implementations available without charge, despite their proprietary software status.<br> Sun generated revenue from Java through the selling of licenses for specialized products such as the Java Enterprise System.<br>
+On November 13, 2006, Sun released much of its Java virtual machine as free, open-source software. On May 8, 2007, Sun finished the process, making all of its JVM’s core code available under open-source distribution terms.<br>
+The principles for creating java were simple, robust, secured, high performance, portable, multi-threaded, interpreted, dynamic, etc. James Gosling in 1995 developed Java, who is known as the Father of Java.<br> Currently, Java is used in mobile devices, internet programming, games, e-business, etc.<br>
+Java programming language is named JAVA.<br>
+<h2 class="DD">To Watch Tutorials Click On the Button Given Below </h2>
+<button class="btn-sb"><a class="ii" href="https://youtu.be/rV_3Lewxx6o" target="_blank">JAVA COURSE</a><br></button>       
+       </p>
+        </div>
+        <div class="thumbnail">
+           <img src="jaba.jpg" alt="coding" class="imgFluid" height="135">
+        </div>
+        <div class="thumb">
+        <img src="variable.jpeg" alt="coding" class="imgFluid" height="135">
+        </div>
+    </section>
+    <footer class="background">
+        <p class="text-footer">Copyright &copy; 2027-All rights reserved
+        </p>
+    </footer>
+</body>
+</html>
+
+
+C LANGUAGE
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>C++</title>
+</head>
+<body background="c.jpeg">
+    <nav class="navbar background" >
+        <ul class="nav-list">
+            <div class="logo"><img src="img.jpg" alt="logo"</div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="java.html">JAVA</a></li>
+            <li><a href="c.html">C++</a></li>
+            <li><a href="python.html">PYTHON</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            
+            
+        </ul>
+    </nav>
+    <section class="section section-left" id="c++" >
+        <div class="paras">
+        <p class="sectionTag text-big">C++ Programming Language</p>
+        <p class="sectionSubTag text-small">C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm. It is an imperative and a compiled language. 
+        C++ is a middle-level language rendering it the advantage of programming low-level (drivers, kernels) and even higher-level applications (games, GUI, desktop apps etc.). The basic syntax and code structure of both C and C++ are the same. <br>
+        <h4 class="FF">Introduction to C++ Programming Language</h4><br>
+        <ul class="bullet"><li>Simple: It is a simple language in the sense that programs can be broken down into logical units and parts, has a rich library support and a variety of data-types
+Machine Independent but Platform Dependent: A C++ executable is not platform-independent (compiled programs on Linux won’t run on Windows), however they are machine independent.</li><br>
+<li>Mid-level language: It is a mid-level language as we can do both systems-programming (drivers, kernels, networking etc.) and build large-scale user applications (Media Players, Photoshop, Game Engines etc.)</li><br>
+<li>Rich library support: Has a rich library support (Both standard ~ built-in data structures, algorithms etc.) as well 3rd party libraries (e.g. Boost libraries) for fast and rapid development.</li><br>
+<li>Speed of execution: C++ programs excel in execution speed. Since, it is a compiled language, and also hugely procedural. Newer languages have extra in-built default features such as garbage-collection, dynamic typing etc. which slow the execution of the program overall. Since there is no additional processing overhead like this in C++, it is blazing fast.</li><br>
+<li>Pointer and direct Memory-Access: C++ provides pointer support which aids users to directly manipulate storage address. This helps in doing low-level programming (where one might need to have explicit control on the storage of variables).</li><br>
+<li>Object-Oriented: One of the strongest points of the language which sets it apart from C. Object-Oriented support helps C++ to make maintainable and extensible programs. i.e. Large-scale applications can be built. Procedural code becomes difficult to maintain as code-size grows.</li><br>
+<li>Compiled Language: C++ is a compiled language, contributing to its speed.</li><br></ul>
+Applications of C++:<br>
+C++ finds varied usage in applications such as:<br>
+Operating Systems & Systems Programming. e.g. Linux-based OS (Ubuntu etc.)<br>
+Browsers (Chrome & Firefox)<br>
+Graphics & Game engines (Photoshop, Blender, Unreal-Engine)<br>
+Database Engines (MySQL, MongoDB, Redis etc.)<br>
+Cloud/Distributed Systems<br>
+<h5 class="gg">Variables in C++</h5><br>
+A variable is a name given to a memory location. It is the basic unit of storage in a program. 
+The value stored in a variable can be changed during program execution.<br>
+A variable is only a name given to a memory location, all the operations done on the variable effects that memory location.
+In C++, all the variables must be declared before use.
+Types Of Variables<br>
+There are three types of variables based on the scope of variables in C++: <br>
+1.Local Variables<br>
+2.Instance Variables<br>
+3.Static Variables<br>
+Local Variables: A variable defined within a block or method or constructor is called local variable. 
+These variable are created when the block in entered or the function is called and destroyed after exiting from the block or when the call returns from the function.
+The scope of these variables exists only within the block in which the variable is declared. i.e. we can access these variable only within that block.
+Initialisation of Local Variable is Mandatory.<br>
+Instance Variables: Instance variables are non-static variables and are declared in a class outside any method, constructor or block. 
+As instance variables are declared in a class, these variables are created when an object of the class is created and destroyed when the object is destroyed.
+Unlike local variables, we may use access specifiers for instance variables. If we do not specify any access specifier then the default access specifier will be used.
+Initialisation of Instance Variable is not Mandatory.
+Instance Variable can be accessed only by creating objects.<br>
+Static Variables: Static variables are also known as Class variables. 
+These variables are declared similarly as instance variables, the difference is that static variables are declared using the static keyword within a class outside any method constructor or block.
+Unlike instance variables, we can only have one copy of a static variable per class irrespective of how many objects we create.
+Static variables are created at the start of program execution and destroyed automatically when execution ends.
+Initialization of Static Variable is not Mandatory. Its default value is 0
+If we access the static variable like Instance variable (through an object), the compiler will show the warning message and it won’t halt the program. The compiler will replace the object name to class name automatically.
+If we access the static variable without the class name, Compiler will automatically append the class name.<br>
+<h6 class="ee">To Watch Tutorials Click On the Button Given Below </h6>
+<button class="btn-sb"><a class="ii" href="https://youtu.be/yGB9jhsEsr8" target="_blank">C++</a><br></button>   
+        
+            </p>
+        </div>
+        <div class="thumbnail">
+           <img src="c.jpg" alt="coding" class="imgFluid" height="135">
+        </div>
+        <div class="thumb">
+            <img src="cv.png" alt="decoding" class="imgFluid" height="135">
+        </div>
+       </section>
+       <footer class="background">
+        <p class="text-footer">Copyright &copy; 2027-All rights reserved
+        </p>
+    </footer>
+    
+</body>
+</html>
+
+
+PYTHON
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>PYTHON</title>
+</head>
+<body background="oo.jpg">
+    <nav class="navbar background" >
+        <ul class="nav-list">
+            <div class="logo"><img src="img.jpg" alt="logo"</div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="java.html">JAVA</a></li>
+            <li><a href="c.html">C++</a></li>
+            <li><a href="python.html">PYTHON</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+            
+    </nav>
+    <section class="section-fr">
+        <div class="paras">
+        <p class="sectionTag text-big">Python Programming Language</p>
+        <p class="sectionSubTag text-small">Python is a high-level, general-purpose and a very popular programming language. Python programming language (latest Python 3) is being used in web development, Machine Learning applications, along with all cutting edge technology in Software Industry. Python Programming Language is very well suited for Beginners, also for experienced programmers with other programming languages like C++ and Java.
+            python-programming-language Python-Tutorial
+            This specially designed Python tutorial will help you learn Python Programming Language in most efficient way, with the topics from basics to advanced (like Web-scraping, Django, Deep-Learning, etc.)<br>
+            <h4 class="FF">Python 3 basics</h4><br>
+           <ul><li>Python was developed by Guido van Rossum in the early 1990s and its latest version is 3.7.1, we can simply call it as Python3. Python 3.0 was released in 2008. and is interpreted language i.e it’s not compiled and the interpreter will check the code line by line.</li><br> This article can used to learn very basics of Python programming language.
+<li> let’s do the most popular ‘HelloWorld’ tradition and hence compare Python’s Syntax with C, C++, Java ( I have taken these 3 because they are most famous and mostly used languages).</li><br>
+<li> Python code for "Hello World"</li><br>
+<li>nothing else to type...see how simple is the syntax.</li><br></ul>
+
+print("Hello World")<br>      
+Note: Please note that Python for its scope doesn’t depend on the braces ( { } ), instead it uses indentation for its scope.<br>
+Now moving on further Lets start our basics of Python . I will be covering the basics in some small sections. Just go through them and trust me you’ll learn the basics of Python very easily.
+Introduction and Setup<br>
+If you are on Windows OS download Python by Clicking here and now install from the setup and in the start menu type IDLE.IDLE, you can think it as an Python’s IDE to run the Python Scripts.
+It will look somehow this :<br>
+
+
+If you are on Linux/Unix-like just open the terminal and on 99% linux OS Python comes preinstalled with the OS.Just type ‘python3’ in terminal and you are ready to go.
+It will look like this :<br>
+
+The ” >>> ” represents the python shell and its ready to take python commands and code.<br>
+
+Variables and Data Structures<br>
+
+In other programming languages like C, C++, and Java, you will need to declare the type of variables but in Python you don’t need to do that. Just type in the variable and when values will be given to it, then it will automatically know whether the value given would be an int, float, or char or even a String.<br>
+# Python program to declare variables<br>
+myNumber = 3<br>
+print(myNumber)<br>
+
+myNumber2 = 4.5<br>
+print(myNumber2)<br>
+
+myNumber ="helloworld<br>"
+print(myNumber)<br>
+Output:<br>
+
+3<br>
+4.5<br>
+helloworld<br>
+See, how simple is it, just create a variable and assign it any value you want and then use the print function to print it. Python have 4 types of built in Data Structures namely List, Dictionary, Tuple and Set.<br>
+
+List is the most basic Data Structure in python. List is a mutable data structure i.e items can be added to list later after the list creation. It’s like you are going to shop at the local market and made a list of some items and later on you can add more and more items to the list.
+append() function is used to add data to the list.<br>
+
+
+# Python program to illustrate a list <br>
+
+# creates a empty list<br>
+nums = [] <br>
+
+# appending data in list<br>
+nums.append(21)<br>
+nums.append(40.5)<br>
+nums.append("String")<br>
+
+print(nums)<br>
+Output:<br>
+
+[21, 40.5, String]<br>
+<h6 class="ee">To Watch Tutorials Click On the Button Given Below </h6>
+        </p>
+        </div>
+        <div class="thumbnail-q">
+           <img src="py.jpg" alt="coding" class="imgFluid" height="135">
+        </div>
+        <div class="thumb">
+            <img src="fr.png" alt="coding" class="imgFluid" height="135">
+        </div>
+    </section>
+    <button class="btn-as"><a class="ii" href="https://youtu.be/gfDE2a7MKjA" target="_blank">PYTHON</a><br></button>   
+        
+    <footer class="background">
+     <p class="text-footer">Copyright &copy; 2027-All rights reserved
+     </p>
+ </footer>
+ 
+    
+</body>
+</html>
+
+
+HTML
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>HTML</title>
+</head>
+<body background="nb.jpg">
+    <nav class="navbar background" >
+        <ul class="nav-list">
+            <div class="logo"><img src="img.jpg" alt="logo"</div>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="java.html">JAVA</a></li>
+            <li><a href="c.html">C++</a></li>
+            <li><a href="python.html">PYTHON</a></li>
+            <li><a href="html.html">HTML</a></li>
+            <li><a href="css.html">CSS</a></li>
+           
+            
+        </ul>
+    </nav>
+    <section class="section section-lefts">
+    <div class="paras">
+    <p class="sectionTag text-big">HTML Course Overview</p>
+    <p class="sectionSubTag text-small">
+        While Web Development is one of the most famous subjects amongst Geeks all over the world, it isn't relatively new.<br> But the constant experimenting due to the new emerging technologies is what keeps the excitement of this subject going through the roof! Even though coding during Web Development is easier than Software Designing, a good amount of logic and a determined mindset is required to pursue it.<br>
+        In this course, you will be learning all there is to know to kickstart your journey of Web Designing with HTML.<br> Its purpose is to design web pages using a marked-up language and this is also the first step one takes to design their own website.<br> This course is designed for beginners, mainly school students a zeal to learn a new skill and will be taught by Industry Experts as well!<br>
+       <h5 class="gg">What you will learn</h5>
+1.Creating your own webpage from scratch!<br>
+
+2.Use of HTML tags that are required to create webpages<br>
+
+3.How to embed videos and audios inside a webpage<br>
+
+4.All the concepts and techniques that are used to design eye-catching web pages!<br>
+<h4 class="FF">HTML basics</h4>
+In this article, we will go through all the basic stuff of HTML coding. There are various tags that we must consider and include while starting to code in HTML. These tags help in the organization and basic formatting of elements in our script or web pages.<br> These step by step procedures will guide you through the process of writing HTML.<br>
+Basic HTML Document: Below mentioned are the basic HTML tags which divide the whole document into various parts like head, body etc.<br>
+Every HTML document begins with a HTML document tag. Although this is not mandatory but it is a good convention to start the document with this below-mentioned tag.<br> Please refer to the HTML Doctypes article for more information related to Doctypes.<br>
+<!DOCTYPE html><br><ul>
+<li>html : Every HTML code must be enclosed between basic HTML tags. It begins with html and ends with /html tag.</li><br>
+<li>head: The head tag comes next which contains all the header information of the web page or documents like the title of the page and other miscellaneous information. This information is enclosed within the head tag which opens with head and ends with /head. The contents will of this tag will be explained in the later sections of course.</li><br>
+<li>title: We can mention the title of a web page using the title tag. This is header information and hence is mentioned within the header tags. The tag begins with title and ends with /title.</li><br>
+<li>body: Next step is the most important of all the tags we have learned so far. The body tag contains the actual body of the page which will be visible to all the users. This opens with body and ends with /body. Every content enclosed within this tag will be shown on the web page be it writings or images or audios or videos or even links. We will see later in the section how using various tags we may insert mentioned contents into our web pages</li><br></ul>
+<h6 class="ee">To Watch Tutorials Click On the Button Given Below </h6></p>
+    <button class="btn-sb"><a class="ii" href="https://youtu.be/BsDoLVMnmZs" target="_blank">HTML</a><br></button>   
+    </div>
+   </section>
+   <footer class="background">
+    <p class="text-footer">Copyright &copy; 2027-All rights reserved
+    </p>
+</footer>
+</body>
+</html>
+
+
+CSS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>CSS</title>
+</head>
+<body background="VC.jpg">
+        <nav class="navbar background" >
+            <ul class="nav-list">
+                <div class="logo"><img src="img.jpg" alt="logo"</div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="java.html">JAVA</a></li>
+                <li><a href="c.html">C++</a></li>
+                <li><a href="python.html">PYTHON</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+               
+            </ul>
+        </nav>
+    <section class="section-op">
+        <div class="paras">
+        <p class="sectionTag text-big">CSS Introduction</p>
+        <p class="sectionSubTag text-small"><ul>
+            Cascading Style Sheets, fondly referred to as CSS, is a simply designed language intended to simplify the process of making web pages presentable. CSS allows you to apply styles to web pages. More importantly, CSS enables you to do this independent of the HTML that makes up each web page.<br>
+CSS is easy to learn and understand, but it provides powerful control over the presentation of an HTML document.<br>
+Attention reader! Don't stop learning now. Get hold of all the important HTML concepts with the Web Design for Beginners  HTML  course.<br>
+WHY CSS? <br>
+<li>CSS saves time: You can write CSS once and reuse the same sheet in multiple HTML pages.</li><br>
+<li>Easy Maintenance: To make a global change simply change the style, and all elements in all the webpages will be updated automatically.</li><br>
+<li>Search Engines: CSS is considered a clean coding technique, which means search engines won’t have to struggle to “read” its content.</li><br>
+<li>Superior styles to HTML: CSS has a much wider array of attributes than HTML, so you can give a far better look to your HTML page in comparison to HTML attributes.</li><br>
+<li>Offline Browsing: CSS can store web applications locally with the help of an offline cache. Using this we can view offline websites.</li><br>
+CSS Syntax:<br>
+A CSS comprises style rules that are interpreted by the browser and then applied to the corresponding elements in your document.
+A style rule set consists of a selector and declaration block.<br>
+Selector -- h1<br>
+Declaration -- {color:blue;font size:12px;}<br> 
+The selector points to the HTML element you want to style.<br>
+The declaration block contains one or more declarations separated by semicolons.<br>
+Each declaration includes a CSS property name and a value, separated by a colon.<br>
+For Example:<br>
+ color is property and blue is value.<br>
+ font-size is property and 12px is value.<br>
+A CSS declaration always ends with a semicolon, and declaration blocks are surrounded by curly braces.<br>
+<h6 class="ee">To Watch Tutorials Click On the Button Given Below </h6></p>
+<button class="btn-sb"><a class="ii" href="https://youtu.be/Edsxf_NBFrw" target="_blank">CSS</a><br></button> 
+        </p>
+        </div>
+        <div class="thumbnail-y">
+           <img src="cs.jpg" alt="coding" class="imgFluid" height="135">
+        </div>
+       </section>
+       <footer class="background">
+        <p class="text-footer">Copyright &copy; 2027-All rights reserved
+        </p>
+    </footer>
+</body>
+</html>
+
+
+ABOUT
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>About Us</title>
+</head>
+<body background="pl.jpg">
+        <nav class="navbar background" >
+            <ul class="nav-list">
+                <div class="logo"><img src="img.jpg" alt="logo"</div>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="java.html">JAVA</a></li>
+                <li><a href="c.html">C++</a></li>
+                <li><a href="python.html">PYTHON</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+               
+            </ul>
+        </nav>
+    <section class="section-ol">
+        <div class="paras">
+        <p class="sectionTag text-big">About Us</p>
+        <p class="sectionSubTag text-smalls">We are bunch of professionals from almost each corner of India,<br> educated from different institues,<br> with technical and non-technical backgrounds,<br> and with lot of other non commonalities but we have a common thing which is that we all are striving hard to bring the highest quality tutorials for our lovely readers.<br>
+         </p>
+        </section>
+         <div class="thumbnail-ll">
+            <img src="about.jpg" alt="coding" class="imgFluid" height="135"> 
+         </div>  
+</body>
+</html>
